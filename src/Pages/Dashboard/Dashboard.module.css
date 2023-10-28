@@ -1,0 +1,8 @@
+.dashboardContainer {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: rgb(223, 234, 248);
+  /* box-shadow: 0 2px 8px solid black; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
