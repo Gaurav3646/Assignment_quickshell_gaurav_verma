@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import classes from "./DropDownButton.module.css";
+import setting from "../../assets/setting.png";
+import down from "../../assets/down.png";
 const DropDownButton = ({ hello }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -10,7 +12,9 @@ const DropDownButton = ({ hello }) => {
   return (
     <div className={classes.customDropdown}>
       <div className={classes.dropdownButton} onClick={toggleDropdown}>
-        Display
+        <img src={setting} alt="display icon" />
+        <span>Display</span>
+        <img src={down} alt="dropdown icon" />
       </div>
       {isOpen && (
         <ul className={classes.dropdownOptions}>

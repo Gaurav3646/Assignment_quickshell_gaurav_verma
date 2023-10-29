@@ -1,0 +1,64 @@
+.ticketContainer {
+  box-sizing: border-box;
+  margin: 0 2rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  font-weight: bold;
+}
+
+.cardHeader span {
+  color: gray;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuIcons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menuIcons span {
+  margin: 0 0.5rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: flex-start;
+}
+
+.featuredButton {
+  margin-top: 0.5rem;
+  margin-right: 0.3rem;
+  padding: 5px 10px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.featuredButton span {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  background-color: gray;
+}
+
+.title {
+  font-weight: bold;
+}

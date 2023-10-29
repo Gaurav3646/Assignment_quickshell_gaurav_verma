@@ -5,11 +5,18 @@
 }
 
 .dropdownButton {
-  padding: 5px 10px;
+  padding: 5px 20px;
   border: 2px solid #ccc;
   cursor: pointer;
   border-radius: 5px;
-  box-shadow: rgb(241, 241, 241) 0px 8px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.customDropdown ul {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.211);
 }
 
 .dropdownOptions {

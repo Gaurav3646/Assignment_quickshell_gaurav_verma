@@ -1,0 +1,42 @@
+.avatarContainer {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+}
+
+.avatar {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: inherit;
+  height: inherit;
+}
+
+.statusDot {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+  bottom: -1px;
+  right: -1px;
+  border: 2px solid white;
+}
+
+.statusDot.online {
+  background-color: green;
+}
+
+.statusDot.offline {
+  background-color: gray;
+}
