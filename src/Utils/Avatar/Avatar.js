@@ -1,11 +1,12 @@
 import React from "react";
 import classes from "./Avatar.module.css";
-import User1 from "../../assets/Profiles/User-1.avif";
-const Avatar = ({ online }) => {
+import Usr1 from "../../assets/usr-1.jpeg";
+const Avatar = ({ online, pic }) => {
+  const avatarSrc = pic ? require(`../../assets/${pic}.jpeg`) : Usr1;
   return (
     <div className={classes.avatarContainer}>
       <div className={classes.avatar}>
-        <img src={User1} alt="User Avatar" />
+        <img src={avatarSrc} alt="User Avatar" />
       </div>
       <div
         className={`${classes.statusDot} ${
